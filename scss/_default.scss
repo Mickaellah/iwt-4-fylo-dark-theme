@@ -3,12 +3,13 @@ body {
     padding: 0;
     color: lightgrey;
     background-color: hsl(218, 28%, 13%);
-    font-size: 14px;
+    font-size: 18px;
     position: relative;
+    font-family: "OpenSans Regular";
 }
 
 body > *:not(footer) {
-    max-width: 1100px;
+    max-width: 1250px;
     margin-inline-start: auto;
     margin-inline-end: auto;
 }
@@ -20,6 +21,18 @@ h4,
 h5,
 h6 {
     color: white;
+}
+
+h2 {
+    font-family: "Raleway Bold";
+    font-size: 36px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway Regular";
 }
 
 img {

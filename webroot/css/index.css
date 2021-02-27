@@ -1,13 +1,34 @@
+@font-face {
+  font-family: "Raleway Bold";
+  src: url("../fonts/Raleway-Bold.woff2") format("woff2"), url("../fonts/Raleway-Bold.woff") format("woff");
+  font-weight: 700; }
+
+@font-face {
+  font-family: "Raleway Regular";
+  src: url("../fonts/Raleway-Regular.woff2") format("woff2"), url("../fonts/Raleway-Regular.woff") format("woff");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "OpenSans Bold";
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"), url("../fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: 700; }
+
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: 400; }
+
 body {
   margin: 0;
   padding: 0;
   color: lightgrey;
   background-color: #181f2a;
-  font-size: 14px;
-  position: relative; }
+  font-size: 18px;
+  position: relative;
+  font-family: "OpenSans Regular"; }
 
 body > *:not(footer) {
-  max-width: 1100px;
+  max-width: 1250px;
   margin-inline-start: auto;
   margin-inline-end: auto; }
 
@@ -18,6 +39,16 @@ h4,
 h5,
 h6 {
   color: white; }
+
+h2 {
+  font-family: "Raleway Bold";
+  font-size: 36px; }
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway Regular"; }
 
 img {
   width: 100%; }
@@ -66,6 +97,9 @@ a {
 
 .fylo__into__heading {
   margin-block-start: 32px; }
+
+.fylo__intro__navigation_header {
+  font-size: 24px; }
 
 .fylo__intro__button {
   background-color: #339ecc;
@@ -130,6 +164,10 @@ a {
 .fylo__productive__navigation--author {
   display: flex;
   flex-direction: row; }
+
+.fylo__productive__navigation--author_name {
+  font-family: "OpenSans Bold";
+  color: white; }
 
 .fylo__productive__navigation--image {
   width: 64px;
