@@ -7,25 +7,231 @@
     <title>Fylo dark theme</title>
     <link rel="stylesheet" href="./webroot/css/index.css">
 </head>
-<body>
-    <header>
-        <h1>
-            <img src="./webroot/images/logo.svg" alt="Logo">
+<body class="fylo">
+    <header class="fylo__heading">
+        <h1 class="fylo__header">
+            <img class="fylo__logo" src="./webroot/images/logo.svg" alt="Logo">
         </h1>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="/features">Features</a>
+        <nav class="fylo__navigation">
+            <ul class="fylo__navigation_container">
+                <li class="fylo__navigation_list_item">
+                    <a class="fylo__navigation_link" href="/features">Features</a>
                 </li>
-                <li>
-                    <a href="/team">Team</a>
+                <li class="fylo__navigation_list_item">
+                    <a class="fylo__navigation_link" href="/team">Team</a>
                 </li>
-                <li>
-                    <a href="/sign-in">Sign in</a>
+                <li class="fylo__navigation_list_item">
+                    <a class="fylo__navigation_link" href="/sign-in">Sign in</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <main class="fylo__main">
+        <section class="fylo__intro">
+            <img class="fylo__intro__image" src="./webroot/images/illustration-intro.png" alt="Intro">
+            <header class="fylo__into__heading">
+                <h2 class="fylo__intro__header">
+                    All your files in one secure location, accessible anywhere.
+                </h2>
+            </header>
+            <p class="fylo__intro__description">
+                Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
+            </p>
+            <button class="fylo__intro__button" type="button">
+                Get Started
+            </button>
+
+            <nav class="fylo__intro__navigation">
+                <ul class="fylo__intro__navigation_container">
+                    <li class="fylo__intro__navigation_list_item">
+                        <header class="fylo__intro__navigation_heading">
+                            <h3 class="fylo__intro__navigation_header">
+                                Access your files, anywhere
+                            </h3>
+                            <img class="fylo__intro__navigation_image" src="./webroot/icons/icon-access-anywhere.svg" alt="access">
+                        </header>
+                        <p class="fylo__intro__navigation_text">
+                            The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.
+                        </p>
+                    </li>
+                    <li class="fylo__intro__navigation_list_item">
+                        <header class="fylo__intro__navigation_heading">
+                            <h3 class="fylo__intro__navigation_header">
+                                Security you can trust
+                            </h3>
+                            <img class="fylo__intro__navigation_image" src="./webroot/icons/icon-security.svg" alt="Security">
+                        </header>
+
+                        <p class="fylo__intro__navigation_text">
+                            2-factor authentication and user-controlled encryption are just a couple of the security 
+                            features we allow to help secure your files.
+                        </p>
+                    </li>
+                    <li class="fylo__intro__navigation_list_item">
+                        <header class="fylo__intro__navigation_heading">
+                            <h3 class="fylo__intro__navigation_header">
+                                Real-time collaboration
+                            </h3>
+                            <img class="fylo__intro__navigation_image" src="./webroot/icons/icon-collaboration.svg" alt="Collaboration">
+                        </header>
+
+                        <p class="fylo__intro__navigation_text">
+                            Securely share files and folders with friends, family and colleagues for live collaboration.No email attachments required.
+                        </p>
+                    </li>
+                    <li class="fylo__intro__navigation_list_item">
+                        <header class="fylo__intro__navigation_heading">
+                            <h3 class="fylo__intro__navigation_header">
+                                Store any type of file
+                            </h3>
+                            <img class="fylo__intro__navigation_image" src="./webroot/icons/icon-any-file.svg" alt="file">
+                        </header>
+
+                        <p class="fylo__intro__navigation_text">
+                            Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.
+                        </p>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="fylo__productive">
+            <div class="fylo__productive__container">
+                <img class="fylo__productive__image" src="./webroot/images/illustration-stay-productive.png" alt="Productive">
+                <div class="fylo__productive__content">
+                    <header class="fylo__productive__heading">
+                        <h2 class="fylo__productive__header">
+                            Stay productive, wherever you are
+                        </h2>
+                    </header>
+
+                    <div class="fylo__productive__descrition">
+                        <p class="fylo__productive__text">
+                            Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.
+                        </p>
+                        <p class="fylo__productive__text">
+                            Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+                        </p>
+                        <p class="fylo__productive__text">
+                            <a class="fylo__productive__link" href="/see">See how Fylo works</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="fylo__productive__navigation">
+                <ul class="fylo__productive__navigation_container">
+                    <li class="fylo__productive__navigation--list_item">
+                        <p class="fylo__productive__navigation--text">
+                            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+                        </p>
+                        <div class="fylo__productive__navigation--author">
+                            <p class="fylo__productive__navigation--author_name">
+                                Satish Patel
+                            </p>
+                            <span class="fylo__productive__navigation--author_position">
+                                Founder & CEO, Huddle
+                            </span>
+                        </div>
+                    </li>
+                    <li class="fylo__productive__navigation--list_item">
+                        <p class="fylo__productive__navigation--text">
+                            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+                        </p>
+
+                        <div class="fylo__productive__navigation--author">
+                            <p class="fylo__productive__navigation--author_name">
+                                Bruce McKenzie
+                            </p>
+                            <span class="fylo__productive__navigation--author_position">
+                                Founder & CEO, Huddle
+                            </span>
+                        </div>
+                    </li>
+                    <li class="fylo__productive__navigation--list_item">
+                        <p class="fylo__productive__navigation--text">
+                            Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+                        </p>
+                        <div class="fylo__productive__navigation--author">
+                            <p class="fylo__productive__navigation--author_name">
+                                Iva Boyd
+                            </p>
+                            <span class="fylo__productive__navigation--author_position">
+                                Founder & CEO, Huddle
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="fylo__access_today">
+            <header class="fylo__access_today__heading">
+                <h2 class="fylo__access_today__header">
+                    Get early access today
+                </h2>
+            </header>
+            <p class="fylo__access_today__text">
+                It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+            </p>
+
+            <form class="fylo__access_today__form">
+                <input class="fylo__access_today__input" type="text" placeholder="email@example.com" />
+                <button class="fylo__access_today__button" type="button">
+                    Get Started For Free
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer class="fylo__footer">
+        <img class="fylo__footer__logo" src="./webroot/images/logo.svg" alt="Logo">
+        <div class="fylo__footer__content">
+            <p class="fylo__footer__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+            <form class="fylo__footer__form">
+                <input class="fylo__footer__input--tel" type="tel" placeholder="+1-543-123-4567" />
+                <input class="fylo__footer__input--email" type="email" placeholder="example@fylo.com" />
+            </form>
+        </div>
+        
+        <nav class="fylo__footer__navigation">
+            <ul class="fylo__footer__navigation--link">
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__link" href="/about">About us</a>
+                </li>
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__link" href="/jobs">Jobs</a>
+                </li>
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__link" href="/press">Press</a>
+                </li>
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__link" href="/blog">Blog</a>
+                </li>
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__link" href="/contact">Contact us</a>
+                </li>
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__link" href="/terms">Terms</a>
+                </li>
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__link" href="/privacy">Privacy</a>
+                </li>
+            </ul>
+            <ul class="fylo__footer__navigation--icons">
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__social_media" href="/facebook">Fbk</a>
+                </li>
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__social_media" href="/titter">Twt</a>
+                </li>
+                <li class="fylo__footer__list_item">
+                    <a class="fylo__footer__social_media" href="/instagram">Ins</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
