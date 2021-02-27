@@ -16,6 +16,15 @@
     padding-inline-end: 24px;
 }
 
+.fylo__productive__link:hover,
+.fylo__productive__link:focus {
+    color: white;
+    border-bottom: 2px solid white;
+    background-image: url('../icons/icon-arrow-white.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
 .fylo__productive__navigation {
     padding-block: 64px;
 }

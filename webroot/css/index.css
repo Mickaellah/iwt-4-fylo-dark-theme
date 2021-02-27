@@ -67,6 +67,9 @@ a {
   text-decoration: none;
   color: lightgrey; }
 
+button {
+  cursor: pointer; }
+
 .fylo__heading {
   display: flex;
   flex-direction: row;
@@ -85,7 +88,13 @@ a {
   margin-inline-start: 24px; }
 
 .fylo__navigation_link {
-  color: lightgrey; }
+  color: lightgrey;
+  font-size: 24px; }
+
+.fylo__navigation_link:hover,
+.fylo__navigation_link:focus {
+  color: white;
+  border-bottom: 1px solid white; }
 
 @media (min-width: 600px) {
   .fylo__heading {
@@ -104,9 +113,9 @@ a {
 .fylo__intro__button {
   background-color: #339ecc;
   border: none;
-  border-radius: 25px;
-  padding-block: 16px;
-  padding-inline: 80px;
+  border-radius: 30px;
+  padding-block: 24px;
+  padding-inline: 100px;
   color: white;
   margin-block: 32px; }
 
@@ -145,6 +154,14 @@ a {
   background-repeat: no-repeat;
   background-position: 100% 50%;
   padding-inline-end: 24px; }
+
+.fylo__productive__link:hover,
+.fylo__productive__link:focus {
+  color: white;
+  border-bottom: 2px solid white;
+  background-image: url("../icons/icon-arrow-white.svg");
+  background-repeat: no-repeat;
+  background-position: 100% 50%; }
 
 .fylo__productive__navigation {
   padding-block: 64px; }
@@ -345,6 +362,10 @@ footer > * {
     row-gap: 20px; }
   .fylo__footer__list_item {
     margin-block-start: 0; }
+  .fylo__footer__link:hover,
+  .fylo__footer__link:focus {
+    color: white;
+    font-size: 24px; }
   .fylo__footer__list_item--about {
     grid-column: 1 / 2;
     grid-row: 1 / 2; }
