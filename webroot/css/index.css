@@ -198,7 +198,7 @@ button {
 .fylo__productive__navigation--author_profile {
   margin-inline-start: 24px; }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .fylo__productive__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
