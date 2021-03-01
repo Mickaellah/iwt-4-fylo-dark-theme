@@ -15,10 +15,15 @@
     background-color: hsl(198, 60%, 50%);
     border: none;
     border-radius: 30px;
-    padding-block: 24px;
+    padding-block: 14px;
     padding-inline: 100px;
     color: white;
     margin-block: 32px;
+}
+
+.fylo__intro__button:hover,
+.fylo__intro__button:focus {
+    background-color: hsl(176, 68%, 64%);
 }
 
 .fylo__intro__navigation {

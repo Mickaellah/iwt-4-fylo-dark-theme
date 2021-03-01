@@ -19,7 +19,7 @@
     border-radius: 30px;
     background-color: white;
     color: white;
-    padding: 24px;
+    padding-block: 14px;
 }
 
 ::placeholder {
@@ -32,10 +32,16 @@
     border-radius: 30px;
     background-color: hsl(198, 60%, 50%);
     color: white;
-    padding: 24px;
+    padding-block: 14px;
+    padding-inline: 64px;
 }
 
-@media (min-width: 700px) {
+.fylo__access_today__button:focus,
+.fylo__access_today__button:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+@media (min-width: 1000px) {
     .fylo__access_today {
         margin-inline: 250px;
     }

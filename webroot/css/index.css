@@ -114,10 +114,14 @@ button {
   background-color: #339ecc;
   border: none;
   border-radius: 30px;
-  padding-block: 24px;
+  padding-block: 14px;
   padding-inline: 100px;
   color: white;
   margin-block: 32px; }
+
+.fylo__intro__button:hover,
+.fylo__intro__button:focus {
+  background-color: #65e2d9; }
 
 .fylo__intro__navigation {
   margin-block-start: 100px; }
@@ -226,7 +230,7 @@ button {
   border-radius: 30px;
   background-color: white;
   color: white;
-  padding: 24px; }
+  padding-block: 14px; }
 
 ::placeholder {
   color: lightgrey; }
@@ -237,9 +241,14 @@ button {
   border-radius: 30px;
   background-color: #339ecc;
   color: white;
-  padding: 24px; }
+  padding-block: 14px;
+  padding-inline: 64px; }
 
-@media (min-width: 700px) {
+.fylo__access_today__button:focus,
+.fylo__access_today__button:hover {
+  background-color: #65e2d9; }
+
+@media (min-width: 1000px) {
   .fylo__access_today {
     margin-inline: 250px; } }
 
@@ -258,7 +267,7 @@ footer > * {
   margin-inline-end: auto; }
 
 .fylo__footer {
-  padding-block-start: 300px;
+  padding-block-start: 450px;
   padding-block-end: 48px;
   padding-inline: 48px; }
 
