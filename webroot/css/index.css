@@ -250,7 +250,6 @@ button {
     justify-content: space-between; }
   .fylo__access_today__input {
     width: 60%;
-    height: 16px;
     margin-block-start: 32px; } }
 
 footer > * {
@@ -327,6 +326,24 @@ footer > * {
   background-repeat: no-repeat;
   background-position: center; }
 
+.fylo__footer__social_media--facebook:focus,
+.fylo__footer__social_media--facebook:hover {
+  background-image: url("../icons/facebook-hover.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.fylo__footer__social_media--twitter:focus,
+.fylo__footer__social_media--twitter:hover {
+  background-image: url("../icons/twitter-hover.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.fylo__footer__social_media--instagram:focus,
+.fylo__footer__social_media--instagram:hover {
+  background-image: url("../icons/instagram-hover.svg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
 @media (min-width: 800px) {
   .fylo__footer__logo {
     width: 20%;
@@ -364,8 +381,7 @@ footer > * {
     margin-block-start: 0; }
   .fylo__footer__link:hover,
   .fylo__footer__link:focus {
-    color: white;
-    font-size: 24px; }
+    color: white; }
   .fylo__footer__list_item--about {
     grid-column: 1 / 2;
     grid-row: 1 / 2; }
