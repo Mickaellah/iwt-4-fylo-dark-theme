@@ -45,10 +45,20 @@
 }
 
 @media (min-width: 600px) {
+    .fylo__intro {
+        max-width: 800px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
     .fylo__intro__navigation_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
         column-gap: 20px;
-    } 
+    }
+
+    .fylo__intro__navigation_list_item--security {
+        margin-block-start: 24px;
+    }
 }
