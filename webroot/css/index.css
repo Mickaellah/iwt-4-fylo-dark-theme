@@ -137,7 +137,7 @@ button {
   width: 20%;
   transform: translateX(200%); }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .fylo__intro {
     max-width: 800px;
     margin-inline-start: auto;
@@ -309,6 +309,9 @@ footer > * {
   background-image: url("../icons/icon-email.svg");
   background-position: 0% 50%;
   background-repeat: no-repeat; }
+
+.fylo__footer__navigation {
+  margin-block-start: 80px; }
 
 .fylo__footer__list_item {
   margin-block-start: 16px; }
