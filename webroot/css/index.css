@@ -28,7 +28,7 @@ body {
   font-family: "OpenSans Regular"; }
 
 body > *:not(footer) {
-  max-width: 1250px;
+  max-width: 1194px;
   margin-inline-start: auto;
   margin-inline-end: auto; }
 
@@ -74,7 +74,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 32px; }
+  margin-block: 48px; }
 
 .fylo__navigation {
   margin-block-start: 40px; }
@@ -101,11 +101,14 @@ button {
     padding-inline: 48px; } }
 
 .fylo__intro {
-  padding: 48px;
   text-align: center; }
 
 .fylo__into__heading {
   margin-block-start: 32px; }
+
+.fylo__intro__description {
+  margin: 0;
+  margin-block-start: 42px; }
 
 .fylo__intro__navigation_header {
   font-size: 24px; }
@@ -124,14 +127,18 @@ button {
   background-color: #65e2d9; }
 
 .fylo__intro__navigation {
-  margin-block-start: 100px; }
+  margin-block-start: 92px; }
 
 .fylo__intro__navigation_list_item {
-  margin-block: 48px; }
+  margin-block: 40px; }
 
 .fylo__intro__navigation_heading {
   display: flex;
   flex-direction: column-reverse; }
+
+.fylo__intro__navigation_header {
+  margin: 0;
+  margin-block-start: 28px; }
 
 .fylo__intro__navigation_image {
   width: 20%;
@@ -139,7 +146,7 @@ button {
 
 @media (min-width: 800px) {
   .fylo__intro {
-    max-width: 800px;
+    max-width: 792px;
     margin-inline-start: auto;
     margin-inline-end: auto; }
   .fylo__intro__navigation_container {
@@ -151,11 +158,18 @@ button {
     margin-block-start: 24px; } }
 
 .fylo__productive {
+  margin-block-start: 64px;
   padding-inline: 48px;
   padding-block-end: 300px; }
 
+.fylo__productive__header {
+  margin: 0; }
+
 .fylo__productive__content {
   margin-block-start: 48px; }
+
+.fylo__productive__text {
+  margin-block-start: 28px; }
 
 .fylo__productive__link {
   color: #65e2d9;
@@ -208,8 +222,8 @@ button {
   .fylo__productive__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    column-gap: 20px; }
+    grid-column-gap: 70px;
+    column-gap: 70px; }
   .fylo__productive__navigation_container {
     display: flex;
     flex-direction: row;

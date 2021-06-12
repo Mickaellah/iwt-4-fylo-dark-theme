@@ -1,10 +1,19 @@
 .fylo__productive {
+    margin-block-start: 64px;
     padding-inline: 48px;
     padding-block-end: 300px;
 }
 
+.fylo__productive__header {
+    margin: 0;
+}
+
 .fylo__productive__content {
     margin-block-start: 48px;
+}
+
+.fylo__productive__text{
+    margin-block-start: 28px;
 }
 
 .fylo__productive__link {
@@ -67,8 +76,8 @@
     .fylo__productive__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 20px;
-        column-gap: 20px;
+        grid-column-gap: 70px;
+        column-gap: 70px;
     }
 
     .fylo__productive__navigation_container {

@@ -1,10 +1,14 @@
 .fylo__intro {
-    padding: 48px;
     text-align: center;
 }
 
 .fylo__into__heading {
     margin-block-start: 32px;
+}
+ 
+.fylo__intro__description {
+    margin: 0;
+    margin-block-start: 42px;
 }
 
 .fylo__intro__navigation_header {
@@ -27,16 +31,21 @@
 }
 
 .fylo__intro__navigation {
-    margin-block-start: 100px;
+    margin-block-start: 92px;
 }
 
 .fylo__intro__navigation_list_item {
-    margin-block: 48px;
+    margin-block: 40px;
 }
 
 .fylo__intro__navigation_heading {
     display: flex;
     flex-direction: column-reverse;
+}
+
+.fylo__intro__navigation_header {
+    margin: 0;
+    margin-block-start: 28px;
 }
 
 .fylo__intro__navigation_image {
@@ -46,7 +55,7 @@
 
 @media (min-width: 800px) {
     .fylo__intro {
-        max-width: 800px;
+        max-width: 792px;
         margin-inline-start: auto;
         margin-inline-end: auto;
     }
